@@ -1,10 +1,9 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
-
 /**
- * Write a description of class Seal here.
+ * New class, Seal, our hero. Main actor of the game.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author Scarlett Ho
+ * @version September 23, 2024
  */
 public class Seal extends Actor
 {

@@ -1,4 +1,11 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+/**
+ * This game has our hero, the Seal, to eat as much food that is falling from the sky.
+ * If the food is not caught in time, the game ends.
+ * 
+ * @author Scarlett Ho
+ * @version September 23, 2024
+ */
 public class MyWorld extends World
 {
     public int score = 0;
