@@ -1,11 +1,14 @@
 #Greenfoot project file
 class.Seal.image=seal.png
+dependency1.from=MyWorld
+dependency1.to=Seal
+dependency1.type=UsesDependency
 editor.fx.0.height=728
 editor.fx.0.width=800
 editor.fx.0.x=335
 editor.fx.0.y=101
 height=503
-package.numDependencies=0
+package.numDependencies=1
 package.numTargets=2
 project.charset=UTF-8
 publish.hasSource=false
