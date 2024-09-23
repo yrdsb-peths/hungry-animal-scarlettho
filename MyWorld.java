@@ -9,7 +9,16 @@ public class MyWorld extends World
         Seal seal = new Seal();
         addObject(seal, 300, 200);
         
+        createApple();
+    }
+    /**
+     * Creating a new apple in a different space each time.
+     */
+    public void createApple()
+    {
         Apple apple = new Apple();
-        addObject(apple, 300, 0);
+        int x = Greenfoot.getRandomNumber(600);
+        int y = 0;
+        addObject(apple, x, y);
     }
 }
