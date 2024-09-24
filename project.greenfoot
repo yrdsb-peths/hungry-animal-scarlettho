@@ -2,7 +2,6 @@
 class.Apple.image=apple.png
 class.MyWorld.image=pngtree-underwater-world-blue-cartoon-background-picture-image_2443826.jpg
 class.Seal.image=seal.png
-<<<<<<< Updated upstream
 dependency1.from=Apple
 dependency1.to=MyWorld
 dependency1.type=UsesDependency
@@ -12,36 +11,12 @@ dependency2.type=UsesDependency
 dependency3.from=Seal
 dependency3.to=Apple
 dependency3.type=UsesDependency
-=======
-dependency1.from=MyWorld
-dependency1.to=Label
-dependency1.type=UsesDependency
-dependency2.from=MyWorld
-dependency2.to=Seal
-dependency2.type=UsesDependency
-dependency3.from=MyWorld
-dependency3.to=Apple
-dependency3.type=UsesDependency
-dependency4.from=Apple
-dependency4.to=MyWorld
-dependency4.type=UsesDependency
-dependency5.from=Seal
-dependency5.to=MyWorld
-dependency5.type=UsesDependency
-dependency6.from=Seal
-dependency6.to=Apple
-dependency6.type=UsesDependency
->>>>>>> Stashed changes
 editor.fx.0.height=0
 editor.fx.0.width=0
 editor.fx.0.x=0
 editor.fx.0.y=0
 height=551
-<<<<<<< Updated upstream
 package.numDependencies=3
-=======
-package.numDependencies=6
->>>>>>> Stashed changes
 package.numTargets=4
 project.charset=UTF-8
 publish.hasSource=false
@@ -88,10 +63,5 @@ target4.y=0
 version=3.1.0
 width=812
 world.lastInstantiated=MyWorld
-<<<<<<< Updated upstream
-xPosition=629
-yPosition=173
-=======
 xPosition=649
 yPosition=187
->>>>>>> Stashed changes
