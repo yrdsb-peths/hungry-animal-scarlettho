@@ -13,7 +13,7 @@ public class Seal extends Actor
     
     //Direction the seal is facing
     String facing = "right";
-    
+    SimpleTimer animationTimer = new SimpleTimer();
     /**
      * Contructor - the code that gets run one time when object is created
      */
@@ -30,6 +30,9 @@ public class Seal extends Actor
             idleLeft[i].mirrorHorizontally();
             idleLeft[i].scale(100, 70);
         }
+        
+        animationTimer.mark();
+        
         setImage(idleRight[0]);
     }
     
@@ -39,6 +42,12 @@ public class Seal extends Actor
     int imageIndex = 0;
     public void animateSeal()
     {
+        if(animationTimer.millisElapsed() < 200)
+        {
+            return;
+        }
+        animationTimer.mark();
+        
         if(facing.equals("right"))
         {
             setImage(idleRight[imageIndex]);
