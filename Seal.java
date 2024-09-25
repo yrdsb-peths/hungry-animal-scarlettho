@@ -92,5 +92,13 @@ public class Seal extends Actor
             world.increaseScore();
             eatingSound.play();
         }
+        if(isTouching(Strawberry.class))
+        {
+            removeTouching(Strawberry.class);
+            MyWorld world = (MyWorld)getWorld();
+            world.createStrawberry();
+            world.increaseScore2();
+            eatingSound.play();
+        }
     }
 }

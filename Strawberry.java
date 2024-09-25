@@ -6,7 +6,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * @author Scarlett Ho 
  * @version September 23, 2024
  */
-public class Apple extends Food
+public class Strawberry extends Food
 {
     private int speed = 1;
     public void act()

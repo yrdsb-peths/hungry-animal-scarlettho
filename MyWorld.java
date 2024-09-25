@@ -25,6 +25,7 @@ public class MyWorld extends World
         addObject(scoreLabel, 30, 35);
         
         createApple();
+        createStrawberry();
     }
     
     /**
@@ -33,6 +34,15 @@ public class MyWorld extends World
     public void increaseScore()
     {
         score++;
+        scoreLabel.setValue(score);
+        if(score % 5 == 0)
+        {
+            level += 1;
+        }
+    }
+    public void increaseScore2()
+    {
+        score += 3;
         scoreLabel.setValue(score);
         if(score % 5 == 0)
         {
@@ -50,6 +60,14 @@ public class MyWorld extends World
         int x = Greenfoot.getRandomNumber(600);
         int y = 0;
         addObject(apple, x, y);
+    }
+    public void createStrawberry()
+    {
+        Strawberry strawberry = new Strawberry();
+        strawberry.setSpeed(level);
+        int x = Greenfoot.getRandomNumber(600);
+        int y = 0;
+        addObject(strawberry, x, y);
     }
     
     /**
