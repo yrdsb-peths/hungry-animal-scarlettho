@@ -7,10 +7,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class Seal extends Actor
 {
-    /**
-     * Act - do whatever the Seal wants to do. This method is called whenever
-     * the 'Act' or 'Run' button gets pressed in the environment.
-     */
+    GreenfootSound eatingSound = new GreenfootSound("eating-sound-effect-36186.mp3");
     public void act()
     {
         if(Greenfoot.isKeyDown("left"))
@@ -36,6 +33,7 @@ public class Seal extends Actor
             MyWorld world = (MyWorld)getWorld();
             world.createApple();
             world.increaseScore();
+            eatingSound.play();
         }
     }
 }
